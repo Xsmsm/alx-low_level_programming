@@ -4,7 +4,7 @@
  * Return: 0 correct
  */
 int main(void)
-{      
+{
 	char ch;
 	int i;
 	long int li;
