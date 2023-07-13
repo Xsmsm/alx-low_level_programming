@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - write function
- * Return : 1 (correct)
+ * main - write a program that uses write function
+ * Return: always 0 (success)
  */
 
 int main(void)
