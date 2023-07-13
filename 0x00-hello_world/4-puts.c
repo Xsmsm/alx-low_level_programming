@@ -1,5 +1,8 @@
 # include <stdio.h>
-/* this is the main function to start the program */
+/**
+ * main -  this is a program to use puts
+ * Return: 0 (success)
+  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
