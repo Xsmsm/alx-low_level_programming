@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int n = 96;
+	int n = 97;
 	int u = 65;
 
 	while (n <= 120)
