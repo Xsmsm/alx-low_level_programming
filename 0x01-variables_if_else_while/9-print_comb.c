@@ -13,7 +13,7 @@ int main(void)
 		putchar(n);
 		if (n == 47)
 		{
-			continue;
+			break;
 		}
 		n++;
 		putchar(44);
