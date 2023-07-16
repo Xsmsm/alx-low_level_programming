@@ -11,9 +11,9 @@ int main(void)
 	while (n <= 57)
 	{
 		putchar(n);
-		if (n == 47)
+		if (n == 57)
 		{
-			break;
+			continue;
 		}
 		n++;
 		putchar(44);
