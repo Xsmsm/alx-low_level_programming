@@ -8,14 +8,18 @@ int main(void)
 {
 	int n = 48;
 
-	while (n <= 56)
+	while (n <= 57)
 	{
 		putchar(n);
+		if (n == 47)
+		{
+			continue;
+		}
 		n++;
 		putchar(44);
 		putchar(' ');
 	}
-		putchar(57);
+	putchar(\n);
 
 	return (0);
 }
