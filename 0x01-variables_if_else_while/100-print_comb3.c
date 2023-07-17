@@ -13,6 +13,7 @@ int main(void)
 	{
 		if (n1 == n2)
 		{
+			n2++;
 			continue;
 		}
 
