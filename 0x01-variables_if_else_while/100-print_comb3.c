@@ -13,7 +13,7 @@ int main(void)
 
 	while (c <= 45)
 	{
-		if (n1 = 57 && n2 = 57)
+		if (n1 == 57 && n2 == 57)
 			break;
 
 		if (n1 == n2)
