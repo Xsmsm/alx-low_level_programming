@@ -9,6 +9,8 @@ int main(void)
 	int n1 = 48;
 	int n2 = 49;
 	int c = 1;
+	int n = 1;
+
 	while (c <=47)
 	{
 		if (n1 == n2)
@@ -27,7 +29,8 @@ int main(void)
 		if (n2 == 58)
 		{
 			n1++;
-			n2 = 48;
+			n++;
+			n2 = 48 + n;
 		}
 	}
 		putchar('\n');
