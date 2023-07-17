@@ -24,7 +24,7 @@ int main(void)
 		n2++;
 		c++;
 
-		if (n2 == 9)
+		if (n2 == 49)
 			n1++;
 	}
 		putchar('\n');
