@@ -9,7 +9,7 @@ int main(void)
 	int n1 = 48;
 	int n2 = 48;
 
-	while (n1 && n2 <= 57)
+	while (n1 == 56 && n2 == 57)
 	{
 		if (n1 == n2)
 		{
