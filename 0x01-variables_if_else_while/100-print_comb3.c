@@ -13,7 +13,6 @@ int main(void)
 	{
 		if (n1 == n2)
 		{
-			n2 = 49;
 			continue;
 		}
 
@@ -24,8 +23,11 @@ int main(void)
 		n2++;
 		c++;
 
-		if (n2 == 49)
+		if (n2 == 57)
+		{
 			n1++;
+			n2 = 48;
+		}
 	}
 		putchar('\n');
 		return (0);
