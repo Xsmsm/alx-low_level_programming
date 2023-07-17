@@ -8,8 +8,8 @@ int main(void)
 {
 	int n1 = 48;
 	int n2 = 48;
-
-	while (n1 != 56 && n2 != 57)
+	int c = 1;
+	while (c <=47)
 	{
 		if (n1 == n2)
 		{
@@ -22,6 +22,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		n2++;
+		c++;
 
 		if (n2 == 9)
 			n1++;
