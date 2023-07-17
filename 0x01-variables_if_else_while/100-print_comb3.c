@@ -13,9 +13,6 @@ int main(void)
 
 	while (c <= 45)
 	{
-		if (n1 == 57 && n2 == 57)
-			break;
-
 		if (n1 == n2)
 		{
 			n2++;
@@ -24,6 +21,10 @@ int main(void)
 
 		putchar(n1);
 		putchar(n2);
+
+		if (n1 == 56 && n2 == 57)
+			break;
+
 		putchar(',');
 		putchar(' ');
 		n2++;
