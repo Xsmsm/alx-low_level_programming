@@ -7,13 +7,13 @@
 int main(void)
 {
 	int n1 = 48;
-	int n2 = 48;
+	int n2 = 49;
 	int c = 1;
 	while (c <=47)
 	{
 		if (n1 == n2)
 		{
-			n2 = 48;
+			n2 = 49;
 			continue;
 		}
 
