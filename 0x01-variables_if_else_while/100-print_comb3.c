@@ -11,8 +11,11 @@ int main(void)
 	int c = 1;
 	int n = 1;
 
-	while (c <=47)
+	while (c <= 45)
 	{
+		if (n1 = 57 && n2 = 57)
+			break;
+
 		if (n1 == n2)
 		{
 			n2++;
@@ -33,6 +36,6 @@ int main(void)
 			n2 = 48 + n;
 		}
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
