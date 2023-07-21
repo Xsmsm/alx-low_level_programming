@@ -15,11 +15,12 @@ void print_most_numbers(void)
 	while (c <= '9')
 	{
 		if (c != '2' || c != '4')
-		{	
-			_putchar(n);
-			n++;
-		}	
+		{
+			_putchar(c);
+			c++;
+		}
 		else
-			n++;
+			c++;
 	}
+	_putchar('\n')
 }
