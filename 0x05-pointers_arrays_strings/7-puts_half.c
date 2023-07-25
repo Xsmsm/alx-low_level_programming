@@ -18,9 +18,9 @@ void puts_half(char *str)
 	}
 
 	half  = count / 2;
-	c = 0;
+	c = half;
 
-	while (c < half)
+	while (*str != '\0')
 	{
 		_putchar(str[c]);
 		c++;
