@@ -10,11 +10,14 @@ void print_array(int *a, int n)
 {
 	int count = 0;
 
-	while (count < (n - 1))
+	if (n > 0)
 	{
-		printf("%d, ", a[count]);
-		count++;
+		while (count < (n - 1))
+		{
+			printf("%d, ", a[count]);
+			count++;
+		}
+		printf("%d", a[count]);
+		printf("\n");
 	}
-	printf("%d", a[count]);
-	printf("\n");
 }
