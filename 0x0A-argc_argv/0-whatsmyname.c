@@ -8,8 +8,10 @@
  * Return: 0 always success
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-        printf("the number of arguments is %d.\n ", argc);
-        return (0);
+	printf("%s\n", *argv);
+
+	return (0);
 }
+
