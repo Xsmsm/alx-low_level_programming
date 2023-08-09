@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	char newm;
+	char *newm;
 	int i = 0;
 	int n = 0;
 
@@ -20,7 +20,7 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	newm = malloc(sizeof(char) * (i + 1))
+	newm = malloc(sizeof(char) * (i + 1));
 
 	if (newm == NULL)
 		return (NULL);
@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	while (str[n])
 	{
 		newm[n] = str[n];
-		r++;
+		n++;
 	}
 	return (newm);
 }
