@@ -8,35 +8,36 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *newm;
-	int i = 0;
-	int n = 0;
-	int r = 0;
-	int d = 0;
+	char *conct;
+	int i, ci;
 
-	if ((s1 == NULL) || (s2 == NULL))
-	{
-		return (NULL);
-	}
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 
+	i = ci = 0;
 	while (s1[i] != '\0')
 		i++;
+	while (s2[ci] != '\0')
+		ci++;
+	conct = malloc(sizeof(char) * (i + ci + 1));
 
-	while (s2[n] != '\0')
-		n++;
-
-	newm = malloc(sizeof(char) * (i + n + 1));
-
-	while (s1[r] != '\0')
+	if (conct == NULL)
+		return (NULL);
+	i = ci = 0;
+	while (s1[i] != '\0')
 	{
-		newm[r] = s1[r];
-		r++;
+		conct[i] = s1[i];
+		i++;
 	}
-	while (s2[d] != '\0')
+
+	while (s2[ci] != '\0')
 	{
-		newm[r] = s2[d];
-		d++;
+		conct[i] = s2[ci];
+		i++, ci++;
 	}
-	newm[r] = '\0';
-	return (newm);
+	conct[i] = '\0';
+	return (conct);
 }
+
